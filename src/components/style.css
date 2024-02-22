@@ -78,3 +78,33 @@ text-shadow: 2px 2px 0 #000
 .bottom{ bottom: 0;}
 
 .top{top: 0;}
+
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+    .meme--text {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  /* Media query for medium screens */
+  @media (min-width: 577px) and (max-width: 992px) {
+    .meme--text {
+      font-size: 1.8em; /* Adjust font size for medium screens */
+    }
+  }
+  
+  /* Media query for large screens */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .meme--text {
+      font-size: 2em; /* Adjust font size for large screens */
+    }
+  }
+  
+  /* Media query for extra large screens */
+  @media (min-width: 1201px) {
+    .meme--text {
+      font-size: 2.5em; /* Adjust font size for extra large screens */
+    }
+  }
+  

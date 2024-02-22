@@ -52,8 +52,7 @@ margin: auto;}
 .meme--text{position: absolute;
 width: 80%;
 text-align: center;
-left: 50%; 
-transform: translateX(-50%,); 
+
 margin:15px 0 ;
 padding: 0 5px ;
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;

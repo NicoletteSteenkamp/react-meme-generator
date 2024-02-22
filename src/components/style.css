@@ -90,7 +90,7 @@ text-shadow: 2px 2px 0 #000
   /* Media query for medium screens */
   @media (min-width: 577px) and (max-width: 992px) {
     .meme--text {
-      font-size: 1.8em; /* Adjust font size for medium screens */
+      font-size: 1.3em; /* Adjust font size for medium screens */
     }
   }
   

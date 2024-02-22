@@ -41,10 +41,13 @@ background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32
 border:none;
 cursor: pointer;}
 
-.meme{position: relative;}
+.meme{position: relative
+;
+width: 59%;
+margin: auto;}
 
 .meme--image{max-width: 100%;
-border-radius: 3px;}
+}
 
 .meme--text{position: absolute;
 width: 80%;

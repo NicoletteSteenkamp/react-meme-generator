@@ -44,15 +44,17 @@ cursor: pointer;}
 .meme{position: relative
 ;
 width: 59%;
-margin: auto;}
+margin: auto;
+display: block;
+text-align: center;}
 
 .meme--image{max-width: 100%;
+    position: center;
 }
 
 .meme--text{position: absolute;
 width: 80%;
-
-
+text-align: center;
 margin:15px 0 ;
 padding: 0 5px ;
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;

@@ -42,6 +42,7 @@ export default function Meme() {
         />
         <input
           type='text'
+          placeholder='Bottom Text'
           className='form--input'
           name='bottomText'
           value={meme.bottomText} 
